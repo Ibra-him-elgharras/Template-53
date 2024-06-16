@@ -1,0 +1,14 @@
+:root{
+    first-color: #FFFFFF;
+    second-color: #F5F3F4;
+    thirt-color: #D3D3D3;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    background-color: #808080;
+}
