@@ -21,11 +21,24 @@ html, body{
     width: 60px;
     border-radius: 50%;
     margin: 0 10px;
-    background: pink;
+    background: #ecf0f3;
     position: relative;
     display: inline-block;
     transition: all 0.3s ease;
-    box-shadow: -3px -3px 7px #fff;
+    box-shadow: -3px -3px 7px #fff,
+                 3px 3px 5px #ceced1;
+}
+.content div:hover::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    background: #ecf0f3;
+    box-shadow: inset -3px -3px 7px #fff,
+                inset 3px 3px 5px #ceced1;
 }
 .content div i{
     position: absolute;
